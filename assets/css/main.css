@@ -3907,3 +3907,10 @@ input, select, textarea {
 			}
 
 		}
+
+@media only screen and (max-width: 690px) {
+    /* Add ruleset overrides. */
+	.logo {
+		max-width: 400px;
+	}
+}
