@@ -217,6 +217,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
+				// Add the form action by "decrypting" this Base64 string. Prevents bots that submits forms...
 				const el = document.getElementById('form');
 				el.action = atob('aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vZi94cHpva3ducg==');
 			</script>
